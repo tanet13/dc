@@ -1,0 +1,15 @@
+docker -v 
+
+docker run hello-world
+
+docker ps --all
+
+docker run busybox ping google.com
+
+docker stop 5c94b26ab001
+
+docker system prune //delete all container
+
+docker run -p 8800:80 nginx
+
+docker run -d -p 7800:80 nginx
